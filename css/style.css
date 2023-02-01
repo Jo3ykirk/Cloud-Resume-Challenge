@@ -42,7 +42,7 @@ body {
   bottom: 0;
   left: 0;
   z-index: 101;
-  background: rgb(7, 77, 183);
+  background: rgba(0, 0, 0, 0.7);
   content: "";
 }
 
@@ -53,7 +53,7 @@ a {
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #C8E0F4;
+  color: #0421395f;
   outline: none;
   text-decoration: none;
 }
@@ -70,8 +70,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 ::-webkit-selection {
-  color: #BA1200);
-  background: #fa3e00fd;
+  color: #BA1200;
+  background: #fa3e0000;
 }
 
 ::-moz-selection {
@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #77c6ffb1;
+  background: #77c6ff39;
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 30px;
   height: 4px;
   content: '';
-  background: #508AA8;
+  background: #04224e;
   margin-left: -30px;
 }
 #fh5co-header .display-tc h1 span:after,
@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 30px;
   height: 4px;
   content: '';
-  background:#508AA8;
+  background:#04224e;
   margin-right: -30px;
 }
 @media screen and (max-width: 768px) {
@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-features .feature-left p {
   font-size: 16px;
-  color: rgb(111, 111, 111);
+  color: rgba(111, 111, 111, 0.638);
 }
 #fh5co-features .feature-left p:last-child {
   margin-bottom: 0;
@@ -337,14 +337,14 @@ h1, h2, h3, h4, h5, h6, figure {
 .info li .first-block {
   width: 40%;
   display: inline-block;
-  float: none;
+  float: left;
   color: #BA1200;
   font-weight: bold;
 }
 .info li .second-block {
   width: 60%;
   display: inline-block;
-  color: #9DD1F1;
+  color: #9dd1f18f;
 }
 
 .fh5co-social-icons {
@@ -731,7 +731,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 270px;
-  background: #fff;
+  background: rgb(255, 5, 5);
   opacity: 0;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -756,7 +756,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .work .desc {
     opacity: 1;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgb(0, 0, 0);
   }
   .work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
